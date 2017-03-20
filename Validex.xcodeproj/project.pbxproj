@@ -10,6 +10,8 @@
 		9AA4257D1E7FBBC700A8F482 /* Validex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA425731E7FBBC700A8F482 /* Validex.framework */; };
 		9AA425821E7FBBC700A8F482 /* ValidexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA425811E7FBBC700A8F482 /* ValidexTests.swift */; };
 		9AA425841E7FBBC700A8F482 /* Validex.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA425761E7FBBC700A8F482 /* Validex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9AA4258E1E7FBC4A00A8F482 /* ValidationFrameWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA4258D1E7FBC4A00A8F482 /* ValidationFrameWork.swift */; };
+		9AA425901E7FDFD200A8F482 /* ImageCompressFrameWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA4258F1E7FDFD200A8F482 /* ImageCompressFrameWork.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,8 @@
 		9AA4257C1E7FBBC700A8F482 /* ValidexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA425811E7FBBC700A8F482 /* ValidexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidexTests.swift; sourceTree = "<group>"; };
 		9AA425831E7FBBC700A8F482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AA4258D1E7FBC4A00A8F482 /* ValidationFrameWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFrameWork.swift; sourceTree = "<group>"; };
+		9AA4258F1E7FDFD200A8F482 /* ImageCompressFrameWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCompressFrameWork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 		9AA425691E7FBBC700A8F482 = {
 			isa = PBXGroup;
 			children = (
+				9AA4258F1E7FDFD200A8F482 /* ImageCompressFrameWork.swift */,
+				9AA4258D1E7FBC4A00A8F482 /* ValidationFrameWork.swift */,
 				9AA425751E7FBBC700A8F482 /* Validex */,
 				9AA425801E7FBBC700A8F482 /* ValidexTests */,
 				9AA425741E7FBBC700A8F482 /* Products */,
@@ -148,6 +154,7 @@
 				TargetAttributes = {
 					9AA425721E7FBBC700A8F482 = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					9AA4257B1E7FBBC700A8F482 = {
@@ -196,6 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA425901E7FDFD200A8F482 /* ImageCompressFrameWork.swift in Sources */,
+				9AA4258E1E7FBC4A00A8F482 /* ValidationFrameWork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +329,7 @@
 		9AA425881E7FBBC700A8F482 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,6 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = DryRun.Validex;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -338,6 +349,7 @@
 		9AA425891E7FBBC700A8F482 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,6 +368,7 @@
 		9AA4258B1E7FBBC700A8F482 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ValidexTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DryRun.ValidexTests;
@@ -367,6 +380,7 @@
 		9AA4258C1E7FBBC700A8F482 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = ValidexTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DryRun.ValidexTests;
