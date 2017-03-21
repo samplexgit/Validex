@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A8CD6CD1E80EF0F007E0824 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A8CD6CC1E80EF0F007E0824 /* LICENSE.txt */; };
 		9AA4257D1E7FBBC700A8F482 /* Validex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA425731E7FBBC700A8F482 /* Validex.framework */; };
 		9AA425821E7FBBC700A8F482 /* ValidexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA425811E7FBBC700A8F482 /* ValidexTests.swift */; };
 		9AA425841E7FBBC700A8F482 /* Validex.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA425761E7FBBC700A8F482 /* Validex.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,14 +26,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A8CD6CC1E80EF0F007E0824 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		9AA425731E7FBBC700A8F482 /* Validex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Validex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA425761E7FBBC700A8F482 /* Validex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Validex.h; sourceTree = "<group>"; };
 		9AA425771E7FBBC700A8F482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9AA4257C1E7FBBC700A8F482 /* ValidexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValidexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA425811E7FBBC700A8F482 /* ValidexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidexTests.swift; sourceTree = "<group>"; };
 		9AA425831E7FBBC700A8F482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9AA4258D1E7FBC4A00A8F482 /* ValidationFrameWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationFrameWork.swift; sourceTree = "<group>"; };
-		9AA4258F1E7FDFD200A8F482 /* ImageCompressFrameWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCompressFrameWork.swift; sourceTree = "<group>"; };
+		9AA4258D1E7FBC4A00A8F482 /* ValidationFrameWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ValidationFrameWork.swift; path = ../ValidationFrameWork.swift; sourceTree = "<group>"; };
+		9AA4258F1E7FDFD200A8F482 /* ImageCompressFrameWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageCompressFrameWork.swift; path = ../ImageCompressFrameWork.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +59,7 @@
 		9AA425691E7FBBC700A8F482 = {
 			isa = PBXGroup;
 			children = (
-				9AA4258F1E7FDFD200A8F482 /* ImageCompressFrameWork.swift */,
-				9AA4258D1E7FBC4A00A8F482 /* ValidationFrameWork.swift */,
+				9A8CD6CC1E80EF0F007E0824 /* LICENSE.txt */,
 				9AA425751E7FBBC700A8F482 /* Validex */,
 				9AA425801E7FBBC700A8F482 /* ValidexTests */,
 				9AA425741E7FBBC700A8F482 /* Products */,
@@ -77,6 +78,8 @@
 		9AA425751E7FBBC700A8F482 /* Validex */ = {
 			isa = PBXGroup;
 			children = (
+				9AA4258D1E7FBC4A00A8F482 /* ValidationFrameWork.swift */,
+				9AA4258F1E7FDFD200A8F482 /* ImageCompressFrameWork.swift */,
 				9AA425761E7FBBC700A8F482 /* Validex.h */,
 				9AA425771E7FBBC700A8F482 /* Info.plist */,
 			);
@@ -186,6 +189,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A8CD6CD1E80EF0F007E0824 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +412,7 @@
 				9AA425891E7FBBC700A8F482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9AA4258A1E7FBBC700A8F482 /* Build configuration list for PBXNativeTarget "ValidexTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +421,7 @@
 				9AA4258C1E7FBBC700A8F482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
