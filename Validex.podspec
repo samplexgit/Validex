@@ -16,9 +16,9 @@ Pod::Spec.new do |s|
 
   # s.source       = { :git => "https://github.com/samplexgit/Validex.git", :tag => "#{s.version}" }
   s.source       = { :git => "https://github.com/samplexgit/Validex.git", :tag => "0.0.1" }
-  #s.source_files  = "Validex", "Validex/**/*.{h,m}"
-  s.source_files  = "Validex"
-  s.exclude_files = "Classes/Exclude"
+  s.source_files  = "Validex", "Validex/**/*.{h,m}"
+  #s.source_files  = "Validex"
+  #s.exclude_files = "Classes/Exclude"
 
 
 
