@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9A8CD6CD1E80EF0F007E0824 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9A8CD6CC1E80EF0F007E0824 /* LICENSE.txt */; };
+		9A8CD6CF1E80FBF3007E0824 /* Validex.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9A8CD6CE1E80FBF3007E0824 /* Validex.podspec */; };
 		9AA4257D1E7FBBC700A8F482 /* Validex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AA425731E7FBBC700A8F482 /* Validex.framework */; };
 		9AA425821E7FBBC700A8F482 /* ValidexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AA425811E7FBBC700A8F482 /* ValidexTests.swift */; };
 		9AA425841E7FBBC700A8F482 /* Validex.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AA425761E7FBBC700A8F482 /* Validex.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		9A8CD6CC1E80EF0F007E0824 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		9A8CD6CE1E80FBF3007E0824 /* Validex.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Validex.podspec; sourceTree = "<group>"; };
 		9AA425731E7FBBC700A8F482 /* Validex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Validex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA425761E7FBBC700A8F482 /* Validex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Validex.h; sourceTree = "<group>"; };
 		9AA425771E7FBBC700A8F482 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				9A8CD6CC1E80EF0F007E0824 /* LICENSE.txt */,
+				9A8CD6CE1E80FBF3007E0824 /* Validex.podspec */,
 				9AA425751E7FBBC700A8F482 /* Validex */,
 				9AA425801E7FBBC700A8F482 /* ValidexTests */,
 				9AA425741E7FBBC700A8F482 /* Products */,
@@ -189,6 +192,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A8CD6CF1E80FBF3007E0824 /* Validex.podspec in Resources */,
 				9A8CD6CD1E80EF0F007E0824 /* LICENSE.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
