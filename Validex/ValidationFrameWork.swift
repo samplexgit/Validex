@@ -145,7 +145,7 @@ public class ValidationFrameWork {
     
     public func isTest() {
         
-        print("This is the test print")
+        print("This is the test print, to update")
     }
     
     
